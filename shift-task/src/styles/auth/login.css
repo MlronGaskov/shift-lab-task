@@ -1,0 +1,136 @@
+.auth-content {
+    display: flex;
+    flex-direction: column;
+    padding: 96px 15vw 72px;
+    gap: 24px;
+}
+
+.auth-content > h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    margin: 0;
+    color: #141C24;
+}
+
+.stage-info {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0;
+    color: #141C24;
+}
+
+.auth-content > label {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 6px;
+    max-width: 464px;
+    flex: 1;
+}
+
+.auth-content > label > input {
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    width: 100%;
+
+    padding: 12px 8px 12px 12px;
+
+    border: 1px solid #CED2DA;
+    border-radius: 8px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+
+    color: #000000;
+}
+
+.auth-content > label > input::placeholder {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    
+    color: #637083;
+}
+
+.buttons > button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 32px;
+    gap: 8px;
+
+    width: 100%;
+    height: 56px;
+
+    box-shadow: none;
+    border: none;
+    background: #1975FF;
+    border-radius: 16px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+    max-width: 328px;
+    flex: 1;
+}
+
+.buttons > .ask-code-retry {
+    background: white;
+    color: #344051;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px 0px;
+    max-width: 364px;
+    gap: 24px;
+}
+
+.validation-info {
+    color: red;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    background-color: #ffe6e6;
+    border: 1px solid red;
+    padding: 5px;
+    margin-bottom: -15px;
+    border-radius: 5px;
+    max-width: 300px;
+}
+
+.time-to-retry {
+    padding-top: 18px;
+    height: 56px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+
+    color: #97A1AF;
+}
