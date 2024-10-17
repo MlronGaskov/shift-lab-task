@@ -1,8 +1,11 @@
+/**
+ * Файл настраивает маршрутизацию для приложения. 
+ */
+
 import { createBrowserRouter } from 'react-router-dom';
   
 import { LoginRoute } from './auth/login';
 
-  
 export const createRouter = () =>
     createBrowserRouter([
         {
